@@ -14,12 +14,12 @@ public class LoginPage {
         this.test = test;
     }
 
-    public void loginToApplication() {
-        page.navigate("https://staging-submissionpage.ipurvey.com/");
-    }
 //    public void loginToApplication() {
-//        page.navigate("https://demowebshop.tricentis.com/");
+//        page.navigate("https://staging-submissionpage.ipurvey.com/");
 //    }
+    public void loginToApplication() {
+        page.navigate("https://demowebshop.tricentis.com/");
+    }
 
     public void clickLoginLink() {
         page.click(LoginObject.LOGIN_LINK);
