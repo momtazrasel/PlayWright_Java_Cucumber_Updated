@@ -6,4 +6,5 @@ public class LoginObject {
     public static final String PASSWORD_INPUT = "(//input[@id='Password'])[1]";
     public static final String LOGIN_BUTTON = "(//input[@value='Log in'])[1]";
     public static final String LOGIN_ERROR = "(//div[@class='validation-summary-errors'])[1]";
+//    public static final String LOGIN_ERROR = "(//div[@class='validation-summary-errors'])[1]";
 }
